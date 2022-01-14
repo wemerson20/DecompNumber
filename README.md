@@ -35,10 +35,4 @@ Para acessar:
   Minimal Api: http://localhost:8082/swagger/index.html
 ```
 
-# Azure
 
-O container também está publicado no Azure e pode ser acessado na seguinte url:
-
-```
-  http://20.81.60.182/swagger/index.html
-```

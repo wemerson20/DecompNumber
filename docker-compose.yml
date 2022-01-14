@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  DecompNumberAPI:
+    image: ${DOCKER_REGISTRY-}DecompNumberapi
+    build:
+      context: .
+      dockerfile: DecompNumberAPI/Dockerfile
+
+  DecompNumberMinimalAPI:
+    image: ${DOCKER_REGISTRY-}DecompNumberminimalapi
+    build:
+      context: .
+      dockerfile: DecompNumberMinimalAPI/Dockerfile
